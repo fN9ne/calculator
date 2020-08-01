@@ -28,6 +28,8 @@ body {
   font-size: 18px;
 }
 .calculator span {
+  -webkit-user-select: none;
+          user-select: none;
   display: grid;
   width: 60px;
   height: 60px;
@@ -55,6 +57,12 @@ body {
   grid-row: span 2;
   height: 120px;
 }
+.calculator span.minus {
+  grid-row: span 2;
+  height: 120px;
+}
 .calculator span.equal {
   background: #03b1ff;
+  grid-column: span 2;
+  width: 120px;
 }

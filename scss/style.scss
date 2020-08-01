@@ -25,6 +25,7 @@ body{
 		font-size: 18px;
 	}
 	& span{
+		user-select: none;
 		display: grid;
 		width: 60px;
 		height: 60px;
@@ -51,8 +52,14 @@ body{
 			grid-row: span 2;
 			height: 120px;
 		}
+		&.minus{
+			grid-row: span 2;
+			height: 120px;
+		}
 		&.equal{
 			background: #03b1ff;
+			grid-column: span 2;
+			width: 120px;
 		}
 	}
 }
