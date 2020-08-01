@@ -53,13 +53,13 @@ body{
 			height: 120px;
 		}
 		&.minus{
-			grid-row: span 2;
-			height: 120px;
+			// grid-row: span 2;
+			// height: 120px;
 		}
 		&.equal{
 			background: #03b1ff;
-			grid-column: span 2;
-			width: 120px;
+			// grid-column: span 2;
+			// width: 120px;
 		}
 	}
 }
